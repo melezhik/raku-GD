@@ -6,8 +6,14 @@
     "provides": {
         "GD": "lib/GD.pm"
     },
+    	"depends"  : {
+          "runtime": {
+            "requires": [
+                "gd:from<native>:ver<3>"
+             ]
+          }
+        },
 	"author" : "Henrique Dias",
-	"depends" : [],
 	"source-type" : "git",
 	"source-url" : "git://github.com/perl6-community-modules/perl6-GD.git"
 }
